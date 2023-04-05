@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $bg1;
+  color: $text1;
+}
+
+.wrapper {
+  width: 100%;
+  .text-center {
+    text-align: center;
+  }
+}
